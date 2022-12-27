@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-nav{
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Arial, Georgia, Calibri, Cambria, Helvetica, sans-serif, serif;
+    font-size: 20px;
+}
+
+.main-nav ul{
+    list-style-type: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-nav li a{
+    text-decoration: underline;
+}
