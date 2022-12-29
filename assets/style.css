@@ -56,4 +56,17 @@ header img{
 
 #about-me-sec{
     clear: both;
+    padding: 15px;
+    display: flex;
+}
+
+#about-sec-heading{
+    float: left;
+    border-right: solid 4px rgb(39, 39, 129);
+    padding-right: 5px;
+    margin-right:10px;
+    font-size: 2em;
+}
+
+#about-sec-heading p{
 }
