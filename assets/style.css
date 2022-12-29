@@ -30,3 +30,24 @@ header img{
 .main-nav li a{
     text-decoration: underline;
 }
+
+#user-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px;
+}
+
+#user-intro h1{
+    padding-left: 30px;
+}
+
+#user-profile-pic{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#about-me-sec{
+    clear: both;
+}
