@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+header{
+    margin: 5px;
+}
+
 header img{
     width: 40px;
     border-radius: 50%;
