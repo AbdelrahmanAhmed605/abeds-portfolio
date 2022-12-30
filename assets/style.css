@@ -15,7 +15,7 @@ header img{
     border-radius: 50%;
 }
 
-.main-nav{
+#main-nav{
     display: inline-block;
     padding-top: 15px;
     margin-right: 20px;
@@ -23,16 +23,16 @@ header img{
     font-size: 1.2em;
 }
 
-.main-nav ul{
+#main-nav ul{
     list-style-type: none;
 }
 
-.main-nav li{
+#main-nav li{
     display: inline-block;
     margin-left: 25px;
 }
 
-.main-nav li a{
+#main-nav li a{
     text-decoration: underline;
 }
 
@@ -56,13 +56,70 @@ header img{
 
 #about-me-sec{
     clear: both;
-    padding: 15px;
     display: flex;
 }
 
 #about-sec-heading{
     border-right: solid 4px rgb(39, 39, 129);
-    padding-right: 5px;
+    padding: 0 5px;
     margin-right:10px;
     font-size: 2.2em;
+    width: 15%;
+}
+
+#work-sec{
+    display: flex;
+}
+
+#work-sec-heading{
+    border-right: solid 4px rgb(39, 39, 129);
+    padding: 0 5px;
+    margin-right:10px;
+    font-size: 2.2em;
+    width: 15%;
+}
+
+#work-nav ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work-nav ul li{
+    width: 46%;
+    margin: 2%;
+}
+
+#work-nav #first-project{
+    width: 100%;
+}
+
+.project-cover{
+    display: block;
+    height: 7em;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#horiseon{
+    background-image: url('./imgs/Horiseon-front-page.jpeg');
+}
+
+#password-gen{
+    background-image: url('./imgs/password.jpg');
+}
+
+#api-project{
+    background-image: url('./imgs/api.jpeg');
+}
+
+#database-design{
+    background-image: url('./imgs/database.jpg');
+}
+
+#react-app{
+    background-image: url('./imgs/react.jpg');
 }
