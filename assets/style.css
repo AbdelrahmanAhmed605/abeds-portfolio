@@ -117,6 +117,12 @@ header img{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(70%);
+}
+
+.project-cover:hover{
+    transition: ease-in-out 0.5s;
+    filter: brightness(100%);
 }
 
 #horiseon{
