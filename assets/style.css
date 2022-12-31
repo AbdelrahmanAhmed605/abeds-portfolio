@@ -41,6 +41,9 @@ header img{
     justify-content: space-between;
 
     margin: 0.5em 0;
+    background-image: url(./imgs/user-intro.jpeg);
+    background-position: center;
+    background-size: contain;
 }
 
 #user-intro h1{
@@ -50,7 +53,8 @@ header img{
 
 #user-profile-pic{
     width: 20%;
-    border-radius: 50%;
+    border-radius: 20%;
+    padding: 0.5em;
 }
 
 .section-title{
