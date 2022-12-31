@@ -59,6 +59,8 @@ header img{
     margin-right:10px;
     font-size: 2em;
     width: 4em;
+    text-align: end;
+    padding-right: 5px;
 }
 
 #about-me-sec{
