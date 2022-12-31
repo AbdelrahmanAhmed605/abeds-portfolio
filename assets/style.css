@@ -54,31 +54,27 @@ header img{
     border-radius: 50%;
 }
 
+.section-title{
+    border-right: solid 4px rgb(39, 39, 129);
+    margin-right:10px;
+    font-size: 2em;
+    width: 4em;
+}
+
 #about-me-sec{
-    clear: both;
     display: flex;
 }
 
-#about-sec-heading{
-    border-right: solid 4px rgb(39, 39, 129);
-    padding: 0 0.1em;
-    margin-right:10px;
-    font-size: 2.2em;
+#about-me-sec p{
+    flex: 1;
 }
 
 #work-sec{
     display: flex;
 }
 
-#work-sec-heading{
-    border-right: solid 4px rgb(39, 39, 129);
-    padding: 0 0.21em;
-    margin-right:10px;
-    font-size: 2.2em;
-}
-
 #work-nav{
-    flex: 1 1 auto;
+    flex: 1;
 }
 
 #work-nav ul{
@@ -135,4 +131,27 @@ header img{
     background-color: rgb(197, 249, 249);
     padding: 10px;
     bottom: 1em;
+}
+
+#contact-me-sec{
+    display: flex;
+}
+
+#contacts-nav{
+    flex: 1;
+}
+
+#contacts-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#contacts-nav ul a{
+    text-decoration: none;
+}
+
+.fa-brands, .fa-solid{
+    font-size: 30px;
 }
