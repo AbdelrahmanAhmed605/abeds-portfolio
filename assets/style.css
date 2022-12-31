@@ -4,8 +4,11 @@
     margin: 0;
 }
 
+body{
+    margin: 0.3em;
+}
+
 header{
-    margin: 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -17,8 +20,8 @@ header img{
 
 #main-nav{
     display: inline-block;
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 1em;
+    margin-right: 1.25em;
     font-family: 'Times New Roman', Arial, Georgia, Calibri, Cambria, Helvetica, sans-serif, serif;
     font-size: 1.2em;
 }
@@ -29,7 +32,7 @@ header img{
 
 #main-nav li{
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 1.5em;
 }
 
 #main-nav li a{
@@ -41,11 +44,11 @@ header img{
     align-items: center;
     justify-content: space-between;
 
-    margin: 10px;
+    margin: 0.5em 0 0.5em 0;
 }
 
 #user-intro h1{
-    padding-left: 5%;
+    padding-left: 1.25em;
     font-size: 2em;
 }
 
@@ -56,11 +59,11 @@ header img{
 
 .section-title{
     border-right: solid 4px rgb(39, 39, 129);
-    margin-right:10px;
+    margin-right:0.5em;
     font-size: 2em;
     width: 4em;
     text-align: end;
-    padding-right: 5px;
+    padding-right: 0.25em;
 }
 
 #about-me-sec{
@@ -87,9 +90,17 @@ header img{
 }
 
 #work-nav ul li{
-    width: 46%;
-    margin: 2%;
+    width: 48%;
+    margin: 2% 0;
     position: relative;
+}
+
+#work-nav ul li:nth-child(2), #work-nav ul li:nth-child(4){
+    margin-right: 2%;
+}
+
+#work-nav ul li:nth-child(3),#work-nav ul li:nth-child(5){
+    margin-left: 2%;
 }
 
 #work-nav #first-project{
@@ -131,7 +142,7 @@ header img{
     color: black;
     position: absolute;
     background-color: rgb(197, 249, 249);
-    padding: 10px;
+    padding: 0.5em;
     bottom: 1em;
 }
 
@@ -150,12 +161,9 @@ header img{
     list-style-type: none;
 }
 
-#contacts-nav ul a{
-    text-decoration: none;
-}
-
 .fa-brands, .fa-solid{
     font-size: 30px;
+    padding-right: 0.25em;
 }
 
 footer{
