@@ -35,16 +35,12 @@ header img{
     margin-left: 1.5em;
 }
 
-#main-nav li a{
-    text-decoration: underline;
-}
-
 #user-intro{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5em 0;
 }
 
 #user-intro h1{
@@ -68,6 +64,7 @@ header img{
 
 #about-me-sec{
     display: flex;
+    margin: 2em 0;
 }
 
 #about-me-sec p{
@@ -76,6 +73,7 @@ header img{
 
 #work-sec{
     display: flex;
+    margin: 2em 0;
 }
 
 #work-nav{
@@ -148,6 +146,7 @@ header img{
 
 #contact-me-sec{
     display: flex;
+    margin: 2em 0;
 }
 
 #contacts-nav{
@@ -162,7 +161,7 @@ header img{
 }
 
 .fa-brands, .fa-solid{
-    font-size: 30px;
+    font-size: 2em;
     padding-right: 0.25em;
 }
 
