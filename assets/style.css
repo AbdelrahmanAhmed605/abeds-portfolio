@@ -100,7 +100,8 @@ header img{
 
 .project-cover{
     display: block;
-    height: 7em;
+    height: 8em;
+    border: solid 2px aqua;
 
     background-position: center;
     background-size: cover;
@@ -109,6 +110,7 @@ header img{
 
 #horiseon{
     background-image: url('./imgs/Horiseon-front-page.jpeg');
+    height: 20em;
 }
 
 #password-gen{
@@ -132,5 +134,5 @@ header img{
     position: absolute;
     background-color: rgb(197, 249, 249);
     padding: 10px;
-    bottom: 10%;
+    bottom: 1em;
 }
