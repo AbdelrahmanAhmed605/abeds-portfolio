@@ -2,6 +2,8 @@
     --body-bg: #5c636e;
     --section-border: #f8b500;
     --section-text: #2b2d31;
+
+    --body-margin: 1em 1.5em;
 }
 
 *{
@@ -48,7 +50,7 @@ body{
     align-items: center;
     justify-content: space-between;
 
-    margin: 1em 0;
+    margin: var(--body-margin);
     background-position: center;
     background-size: contain;
 }
@@ -62,7 +64,7 @@ body{
 #user-profile-pic{
     width: 15em;
     border-radius: 20%;
-    margin: 1em;
+    margin-left: 1em;
     border: solid 0.1em #f8b500;
     box-shadow: 0.3em 0.2em #f8b500;
 }
@@ -79,7 +81,7 @@ body{
 
 #about-me-sec{
     display: flex;
-    margin: 2em 0;
+    margin: var(--body-margin);
 }
 
 #about-me-sec p{
@@ -89,7 +91,7 @@ body{
 
 #work-sec{
     display: flex;
-    margin: 2em 0;
+    margin: var(--body-margin);
 }
 
 #work-nav{
@@ -168,7 +170,7 @@ body{
 
 #contact-me-sec{
     display: flex;
-    margin: 2em 0;
+    margin: var(--body-margin);
 }
 
 #contacts-nav{
@@ -198,4 +200,5 @@ body{
 footer{
     color: var(--section-text);
     text-align: center;
+    margin: var(--body-margin);
 }
