@@ -1,3 +1,9 @@
+:root{
+    --body-bg: #5c636e;
+    --section-border: #f8b500;
+    --section-text: #2b2d31;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,22 +11,20 @@
 }
 
 body{
-    margin: 0.3em;
+    background-color: var(--body-bg);
 }
 
-header{
+#header{
     display: flex;
     justify-content: space-between;
-}
-
-header img{
-    width: 40px;
-    border-radius: 50%;
+    color: var(--section-text);
+    background-image: linear-gradient(0deg,#5c636e,#f8b500);
+    padding: 2em;
 }
 
 #main-nav{
     display: inline-block;
-    padding-top: 1em;
+    padding-top: 0.5em;
     margin-right: 1.25em;
     font-family: 'Times New Roman', Arial, Georgia, Calibri, Cambria, Helvetica, sans-serif, serif;
     font-size: 1.2em;
@@ -35,30 +39,37 @@ header img{
     margin-left: 1.5em;
 }
 
+#main-nav ul a{
+    color: var(--section-text);
+}
+
 #user-intro{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    margin: 0.5em 0;
-    background-image: url(./imgs/user-intro.jpeg);
+    margin: 1em 0;
     background-position: center;
     background-size: contain;
 }
 
-#user-intro h1{
+#user-intro h2{
     padding-left: 1.25em;
     font-size: 2em;
+    color: var(--section-text);
 }
 
 #user-profile-pic{
-    width: 20%;
+    width: 15em;
     border-radius: 20%;
-    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.1em #f8b500;
+    box-shadow: 0.3em 0.2em #f8b500;
 }
 
 .section-title{
-    border-right: solid 4px rgb(39, 39, 129);
+    color: var(--section-text);
+    border-right: solid 4px var(--section-border);
     margin-right:0.5em;
     font-size: 2em;
     width: 4em;
@@ -72,6 +83,7 @@ header img{
 }
 
 #about-me-sec p{
+    color: var(--section-text);
     flex: 1;
 }
 
@@ -112,7 +124,7 @@ header img{
 .project-cover{
     display: block;
     height: 8em;
-    border: solid 2px aqua;
+    border: solid 2px var(--section-border);
 
     background-position: center;
     background-size: cover;
@@ -147,9 +159,9 @@ header img{
 }
 
 .work-title{
-    color: black;
+    color: var(--section-text);
     position: absolute;
-    background-color: rgb(197, 249, 249);
+    background-color: var(--section-border);
     padding: 0.5em;
     bottom: 1em;
 }
@@ -175,6 +187,15 @@ header img{
     padding-right: 0.25em;
 }
 
+#contacts-nav ul li{
+    padding-top: 1em;
+}
+
+#contacts-nav ul li a{
+    color: var(--section-text);
+}
+
 footer{
+    color: var(--section-text);
     text-align: center;
 }
