@@ -29,7 +29,7 @@ body{
     padding-top: 0.5em;
     margin-right: 1.25em;
     font-family: 'Times New Roman', Arial, Georgia, Calibri, Cambria, Helvetica, sans-serif, serif;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 #main-nav ul{
@@ -87,6 +87,7 @@ body{
 #about-me-sec p{
     color: var(--section-text);
     flex: 1;
+    font-size: 1.25em;
 }
 
 #work-sec{
