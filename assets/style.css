@@ -24,6 +24,7 @@ body{
     color: var(--section-text);
     background-image: linear-gradient(0deg,var(--body-bg),var(--section-border));
     padding: 2em;
+    flex-wrap: wrap;
 }
 
 #main-nav{
@@ -51,6 +52,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     margin: var(--body-margin);
     background-position: center;
