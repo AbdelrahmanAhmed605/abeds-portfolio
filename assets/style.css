@@ -40,6 +40,7 @@ body{
 
     font-family: 'Times New Roman', Arial, Georgia, Calibri, Cambria, Helvetica, sans-serif, serif;
     font-size: 1.25em;
+    text-align: right;
 }
 
 #main-nav ul{
@@ -53,6 +54,17 @@ body{
 
 #main-nav ul a{
     color: var(--section-text);
+    text-decoration: none;
+    padding: 0.2em;
+    background-image: linear-gradient(0deg, var(--section-border), var(--section-border));
+    background-repeat: no-repeat;
+    background-size: 0% 0.2em;
+    background-position: bottom;
+}
+
+#main-nav ul a:hover{
+    transition: 0.25s ease-out;
+    background-size: 100% 0.2em;
 }
 
 #user-intro{
@@ -217,6 +229,12 @@ footer{
 }
 
 @media(max-width: 750px), (max-device-width:750px){
+
+    #header h1{
+        display: block;
+        width: 60%;
+    }
+
     #main-nav ul li{
         display: block;
         padding: 0.2em 0;
@@ -249,6 +267,16 @@ footer{
 @media(max-width: 500px), (max-device-width:450px){
     #header{
         justify-content: center;
+        text-align: center;
+    }
+
+    #header h1{
+        width: 100%;
+    }
+
+    #main-nav{
+        margin: 0;
+        text-align: center;
     }
 
     #main-nav ul li{
