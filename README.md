@@ -15,6 +15,8 @@ The link to the website can be found here: https://abdelrahmanahmed605.github.io
 
 To use Abdelrahman's website, you can review the different sections giving an overview of Abdelrahman's professional bio, his work, and his social contact info. For quick access to each section, a navigation bar is provided at the top of the page. Clicking on any of the links will take the user to the corresponding section of the webpage. The work section will navigate the user to different websites corresponding to the project that was clicked. The contacts section at the bottom of the page will navigate the user to Abdelrahmans socials.
 
+![Abdelrahman's portfolio website front page design](assets/imgs/abeds-portfolio-page.jpeg)
+
 ## Credits
 
 Abdelrahman Ahmed https://github.com/AbdelrahmanAhmed605
