@@ -76,7 +76,8 @@ body{
     background-size: 100% 0.2em;
 }
 
-/*Centers the text and image vertically & horizontally while allowing them to take contain multiple lines which is needed when the browser is resized*/
+/*Centers the text and image vertically & horizontally while allowing them to take contain multiple lines 
+which is needed when the browser is resized*/
 #user-intro{
     display: flex;
     align-items: center;
@@ -123,8 +124,8 @@ body{
 #about-me-sec p{
     color: var(--section-text);
     /*flex:1 means flex-grow and shrink both have a value of 1, and a flex-basis of 0. The flex basis of 0 
-    means the paragraph has no starting size and will take up the available space. The grow and shrink of 1
-    will then change this basis to change proprtionally to the screen size.*/
+    means the element has no starting size and will take up the available space based on flex grow and shrink.
+    The grow and shrink of 1 will then cause this basis to change proprtionally to the screen size.*/
     flex: 1;
     font-size: 1.25em;
 }
