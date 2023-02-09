@@ -183,13 +183,20 @@ which is needed when the browser is resized*/
     transition: ease-in-out 0.5s;
 }
 
-#horiseon{
-    background-image: url('./imgs/Horiseon-front-page.jpeg');
-    height: 20em;
+#audio-news{
+    background-image: url('./imgs/audio-news.png');
+}
+
+#weather-dashboard{
+    background-image: url('./imgs/weather-dashboard.png');
+}
+
+#coding-quiz{
+    background-image: url('./imgs/coding-quiz.png');
 }
 
 #password-gen{
-    background-image: url('./imgs/password.jpg');
+    background-image: url('./imgs/password-gen.png');
 }
 
 #api-project{
