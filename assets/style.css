@@ -183,6 +183,10 @@ which is needed when the browser is resized*/
     transition: ease-in-out 0.5s;
 }
 
+#scriptomatic{
+    background-image: url('./imgs/scriptomatic.png');
+}
+
 #audio-news{
     background-image: url('./imgs/audio-news.png');
 }
@@ -207,9 +211,6 @@ which is needed when the browser is resized*/
     background-image: url('./imgs/database.jpg');
 }
 
-#react-app{
-    background-image: url('./imgs/react.jpg');
-}
 
 /*Places the title on top of the background images*/
 .work-title{
