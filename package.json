@@ -1,18 +1,18 @@
 {
   "name": "abeds-portfolio",
   "version": "4.0.0-beta.2",
-  "description": "Full Stack developer portfolio",
+  "description": "Abdelrahman Ahmed's Full Stack Developer Portfolio",
   "keywords": [
+    "Abdelrahman Ahmed",
     "resume",
     "portfolio",
+    "full stack developer",
+    "web developer",
     "css",
     "sass",
     "html",
-    "responsive",
-    "theme",
-    "template"
+    "responsive"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
   "bugs": {
     "url": "https://github.com/AbdelrahmanAhmed605/abeds-portfolio/issues",
     "email": "abdelrahman.ahmed605@hotmail.com"
