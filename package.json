@@ -1,0 +1,45 @@
+{
+  "name": "abeds-portfolio",
+  "version": "4.0.0-beta.2",
+  "description": "Full Stack developer portfolio",
+  "keywords": [
+    "resume",
+    "portfolio",
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "bugs": {
+    "url": "https://github.com/AbdelrahmanAhmed605/abeds-portfolio/issues",
+    "email": "abdelrahman.ahmed605@hotmail.com"
+  },
+  "license": "MIT",
+  "author": "Abdelrahman Ahmed",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdelrahmanAhmed605/abeds-portfolio"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "devicons": "^1.8.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.0",
+    "gulp-header": "1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  }
+}
